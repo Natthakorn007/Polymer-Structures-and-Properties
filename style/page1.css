@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%; /* เปลี่ยนเป็น 100% แทน 100vh */
+  width: 100%;
+  position: relative;
+  overflow-y: auto; /* อนุญาตให้เลื่อนในแนวตั้ง */
+}
+
+.polymer {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: left;
+  width: 100%; /* กำหนดให้กรอบมีความกว้างเต็มพื้นที่ */
+  max-width: 600px; /* ขนาดสูงสุดของกรอบ */
+  box-sizing: border-box;
+  font-size: 16px; /* ขนาดตัวอักษรเริ่มต้น */
+}
+
+.polymer img {
+  width: 100%;
+  max-width: 100%; /* ให้ภาพเต็มความกว้างของกรอบ */
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px; /* ระยะห่างระหว่างรูปและข้อความ */
+}
+
+button {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: fixed; /* ใช้ตำแหน่ง fixed */
+  bottom: 20px;
+  right: 20px;
+  display: none; /* ซ่อนปุ่มตั้งแต่แรก */
+}button {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+button.show {
+  display: block;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  position: relative;
+  height:10px;
+
+}
+/* ใช้ media query สำหรับหน้าจอขนาดใหญ่ */
+@media screen and (min-width: 768px) {
+  .polymer {
+    font-size: 20px;
+    max-width: 800px;
+    padding: 25px;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 12px 25px;
+  }
+}
+h1 {
+  color: rgb(7, 26, 45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url("blg.jpg");
+    background-size: cover; /* ขยายภาพให้ครอบคลุมพื้นที่ */
+    background-position: center; /* จัดตำแหน่งภาพให้อยู่ตรงกลาง */
+    background-repeat: no-repeat; /* ไม่ให้ภาพซ้ำ */
+  }
+  .grop {
+    width: 100%; /* ความกว้างของ div */
+    height: 100vh; /* ความสูงของ div (เต็มหน้าจอ) */
+    display: flex; /* จัดตำแหน่งรูปให้อยู่กลาง */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* ซ่อนส่วนที่เกินออกมานอก div */
+  }
+  .grop img {
+    width: 1000px;
+    height: 500px;
+    object-fit: contain; /* ให้แสดงรูปทั้งหมดโดยไม่ครอบ */
+  }
+h1 {
+    color: rgb(8, 17, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: #0073e6; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for size */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+    
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* 20px from the bottom */
+    right: 20px; /* 20px from the right */
+  }
+  
+  button:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+  }
+  
