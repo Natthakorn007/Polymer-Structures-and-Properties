@@ -87,8 +87,9 @@ button.show {
     padding: 25px;
     margin-left: 20px;
     margin-right: 20px;
+    border: 2px solid #4900f3;
+    border-radius: 10px;
   }
-
   button {
     font-size: 18px;
     padding: 12px 25px;
