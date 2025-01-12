@@ -18,9 +18,9 @@ body {
     width: 100%;
     display: block;
     object-fit: contain;
-    width: 100%; /* ทำให้ภาพขยายเต็มความกว้างของคอนเทนเนอร์ */
+    width: 100%; 
     display: block;
-    object-fit: contain; /* ให้แสดงรูปทั้งหมดโดยไม่ครอบ */
+    object-fit: contain; 
   }
   h1 {
     color: rgb(7, 26, 45);
