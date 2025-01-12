@@ -17,14 +17,15 @@ body {
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 15px;
-  background-color: #fff;
+  background: linear-gradient(to bottom, #ffffff, #cce7ff, #95c9fe, #35a8f0, #2365fff0);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   text-align: left;
-  width: 100%; /* กำหนดให้กรอบมีความกว้างเต็มพื้นที่ */
-  max-width: 600px; /* ขนาดสูงสุดของกรอบ */
+  width: 100%;
+  max-width: 600px;
   box-sizing: border-box;
-  font-size: 16px; /* ขนาดตัวอักษรเริ่มต้น */
+  font-size: 16px;
+  color: #000; 
 }
 
 .polymer img {
